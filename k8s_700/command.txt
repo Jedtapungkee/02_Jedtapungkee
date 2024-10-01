@@ -1,0 +1,22 @@
+1/10/2567
+
+kubectl get all //see all
+
+kubectl get pods 
+
+สร้าง
+kubectl apply -f sample-pod.yml
+
+kubectl apply -f .
+
+kubectl get services
+
+kubectl logs client-pod
+
+
+ลบ
+kubectl delete pods client-pod
+kubectl delete all --all //ลบทั้งหมด
+
+
+kubectl delete deployments client-deployment
