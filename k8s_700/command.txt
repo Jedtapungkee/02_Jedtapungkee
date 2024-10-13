@@ -24,3 +24,12 @@ kubectl delete deployments client-deployment
 kubectl apply -f .
 http://localhost:30002/api/todo
 http://localhost:30002/api/health
+
+8/10/2567
+
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.11.2/deploy/static/provider/cloud/deploy.yaml
+
+http://todo.com/
+http://todo.com/api/todo
+
+kubectl get pvc
